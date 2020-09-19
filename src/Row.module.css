@@ -1,0 +1,35 @@
+.row_poster {
+    width: 10%;
+    margin: 7px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.row_poster:hover {
+    transform: scale(1.1);
+}
+
+.row_posters {
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 20px;
+    overflow-y: hidden;
+
+}
+
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    margin-left: 20px;
+    color: white;
+    font-style: BebasNeue;
+}
